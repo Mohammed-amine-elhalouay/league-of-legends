@@ -1,0 +1,45 @@
+body{
+    background-color:#03396c;
+}
+.d1 h4{
+    font-size: 6rem;
+    font-family:sans-serif;
+    color:#977b45;
+    font-weight: bold;
+    position: absolute;
+    top:-80px;
+    left: 500px;
+}
+#img1{
+    width:200px;
+    position: absolute;
+    left: 270px;
+}
+#img2{
+    width: 200px;
+    position: absolute;
+    left: 890px;
+}
+#img3{
+    width: 400px;
+    position: absolute;
+    left: 480px;
+    top: 110px;
+}
+.d2{
+    width:1250px;
+    height: 1370px;
+    background-color:#011f4b;
+    position: relative;
+    left:50px;
+    top: 400px;
+    border-radius: 10px;
+}
+.d2 img{
+    align-items:baseline;
+}
+.d2 a{
+    position: relative;
+    margin-left: 14px;
+    top: 10px;
+}
