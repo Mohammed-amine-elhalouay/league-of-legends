@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aatrox</title>
+</head>
+<style>
+    body{
+    background-color:#03396c;
+}
+.d1 h4{
+    font-size: 6rem;
+    font-family:sans-serif;
+    color:#977b45;
+    font-weight: bold;
+    position: absolute;
+    top:-80px;
+    left: 500px;
+}
+#img1{
+    width:200px;
+    position: absolute;
+    left: 270px;
+}
+#img2{
+    width: 200px;
+    position: absolute;
+    left: 890px;
+}
+#img3{
+    width: 400px;
+    position: absolute;
+    left: 480px;
+    top: 110px;
+}
+.d2{
+    width:1200px;
+    height: 1000px;
+    background-color:#011f4b;
+    position: relative;
+    left:70px;
+    top: 400px;
+    border-radius: 10px;
+}
+.d2 img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 480px;
+    top:40px;
+}
+.d3{
+    width: 3px;
+    height:170px;
+    background-color: rgba(255, 217, 0, 0.315);
+    position: relative;
+    left:666px;
+    top:-260px;
+    border-radius: 10px;
+}
+#img4{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:50px;
+    top:120px;
+    border-radius:50%;
+    border:rgb(2, 160, 2) 3px solid;
+}
+#img5{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:80px;
+    top:120px;
+    border-radius:50%;
+    border:rgb(2, 160, 2) 3px solid;
+}
+#img6{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:110px;
+    top:120px;
+    border-radius:50%;
+    border:rgb(2, 160, 2) 3px solid;
+}
+#img7{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:140px;
+    top:120px;
+    border-radius:50%;
+    border:rgb(2, 160, 2) 3px solid;
+}
+#img8{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:600px;
+    top:120px;
+    border-radius:50%;
+    border:rgba(255, 0, 0, 0.671) 3px solid;
+}
+#img9{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:350px;
+    top:120px;
+    border-radius:50%;
+    border:rgba(255, 0, 0, 0.671) 3px solid;
+}
+#img10{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:-35px;
+    top:120px;
+    border-radius:50%;
+    border:rgba(255, 0, 0, 0.671) 3px solid;
+}
+#img11{
+    width:100px;
+    height: 100px;
+    position: relative;
+    left:-10px;
+    top:120px;
+    border-radius:50%;
+    border:rgba(255, 0, 0, 0.671) 3px solid;
+}
+#item-label img{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top:240px;
+    left:60px;
+    margin: 5px;
+    border: 2px black solid;
+}
+#item-label span img{
+   border-radius: 50%;
+   top:370px;
+   left:-735px;
+
+}
+.d2 h1{
+    position: relative;
+    top:210px;
+    left:60px;
+    color: black(255, 217, 0, 0.541);
+    font-family: helvetica;
+}
+#build-select{
+    position: relative;
+    top:210px;
+    left:60px;
+    background-color:blue;
+    width: 500px;
+    height: 50px;
+    border:black 2px solid;
+    transition:1s;
+    color: black;
+    box-shadow: rgb(168, 0, 0) 10px 10px 0px 0px ;
+}
+#build-select:hover{
+    background-color: rgb(168, 0, 0);
+    transition:1s;
+    color:black;
+    border:black 3px solid;
+    box-shadow: blue 10px 10px 0px 0px ;
+}
+</style>
+<body>
+    <div class="d1">
+        <h4>AMI.GG</h4>
+        <img src="lol items/Blitz_Bump_Final_(1).png" id="img1">
+        <img src="lol items/Blitz_Bump_Final_(1).png" id="img2">
+        <img src="lol items/League_of_Legends_Wild_Rift_logo.png"id="img3">
+       </div>
+       <div class="d2">
+        <img src="lol champions/AatroxSquare.webp">
+        <div id="s1">
+            <img src="lol champions/SionSquare.webp" id="img4">
+            <img src="lol champions/Dr._MundoSquare.webp"id="img5">
+            <img src="lol champions/GarenSquare.webp"id="img6">
+            <img src="lol champions/NasusSquare.webp"id="img7">
+            <img src="lol champions/IreliaSquare.webp" id="img8">
+            <img src="lol champions/FioraSquare.webp"id="img9">
+            <img src="lol champions/JaxSquare.webp"id="img10">
+            <img src="lol champions/TryndamereSquare.webp"id="img11">
+            
+        </div>
+        <h1>Build Selector</h1>
+    <select id="build-select">
+      <option value="">Select a build...</option>
+      <option value="build1">Recommended items</option>
+      <option value="build2">vs AD and Assassin</option>
+      <option value="build3">vs AP</option>
+    </select>
+    <br><br>
+    <label id="item-label"></label>
+       </div>
+       <div class="d3"></div>
+       
+</body>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+var build1Items = [
+'<img src="lol items/Black_Cleaver_item.webp" alt="Item 1" >',
+'<img src="lol items/Divine_Sunderer_item.webp" alt="Item 2">',
+'<img src="lol items/Deaths_Dance_item_old2.webp" alt="Item 3">',
+'<img src="lol items/Steraks_Gage_item.webp" alt="Item 4">',
+'<img src="lol items/Guardian_Angel_item.webp" alt="Item 5">',
+'<img src="lol items/Plated_Steelcaps_WR_item.webp" alt="Item 6">',
+'<img src="lol items/Gargoyle_Stoneplate_item.webp" alt="Item 7">',
+'<img src="lol speels/Flash.webp" style="width:35px; height:35px;top:196px;">',
+'<img src="lol speels/Ignite.webp" style="width:35px; height:35px;top:240px;left:7px;">',
+'<span><img src="lol runes/Conqueror_(Wild_Rift)_rune.webp""></span>',
+'<span><img src="lol runes/Triumph_(Wild_Rift)_rune.webp"></span>',
+'<span><img src="lol runes/Second_Wind_rune.webp"></span>',
+'<span><img src="lol runes/Demolish_rune.webp"></span>'
+
+];
+var build2Items = [
+'<img src="lol items/Black_Cleaver_item.webp" alt="Item 8">',
+'<img src="lol items/Deaths_Dance_item_old2.webp" alt="Item 9">',
+'<img src="lol items/Steraks_Gage_item.webp" alt="Item 10">',
+'<img src="lol items/Thornmail_item.webp" alt="Item 11">',
+'<img src="lol items/Randuins_Omen_item.webp" alt="Item 12">',
+'<img src="lol items/Plated_Steelcaps_WR_item.webp" alt="Item 13">',
+'<img src="lol items/Gargoyle_Stoneplate_item.webp" alt="Item 14">',
+'<img src="lol speels/Flash.webp" style="width:35px; height:35px;top:196px;">',
+'<img src="lol speels/Ignite.webp" style="width:35px; height:35px;top:240px;left:7px;">',
+'<span><img src="lol runes/Conqueror_(Wild_Rift)_rune.webp""></span>',
+'<span><img src="lol runes/Triumph_(Wild_Rift)_rune.webp"></span>',
+'<span><img src="lol runes/Second_Wind_rune.webp"></span>',
+'<span><img src="lol runes/Demolish_rune.webp"></span>'
+];
+var build3Items = [
+'<img src="lol items/Black_Cleaver_item.webp" alt="Item 15">',
+'<img src="lol items/Divine_Sunderer_item.webp" alt="Item 16">',
+'<img src="lol items/Deaths_Dance_item_old2.webp" alt="Item 17">',
+'<img src="lol items/Steraks_Gage_item.webp" alt="Item 18">',
+'<img src="lol items/Spirit_Visage_item.webp" alt="Item 19">',
+'<img src="lol items/Plated_Steelcaps_WR_item.webp" alt="Item 20">',
+'<img src="lol items/Gargoyle_Stoneplate_item.webp" alt="Item 21">',
+'<img src="lol speels/Flash.webp" style="width:35px; height:35px;top:196px;">',
+'<img src="lol speels/Ignite.webp" style="width:35px; height:35px;top:240px;left:7px;">',
+'<span><img src="lol runes/Conqueror_(Wild_Rift)_rune.webp""></span>',
+'<span><img src="lol runes/Triumph_(Wild_Rift)_rune.webp"></span>',
+'<span><img src="lol runes/Second_Wind_rune.webp"></span>',
+'<span><img src="lol runes/Demolish_rune.webp"></span>'
+];
+
+        // Listen for changes in the dropdown list
+        $('#build-select').on('change', function() {
+          // Get the selected value of the dropdown list
+          var selectedBuild = $(this).val();
+
+          // Show the corresponding items in the label
+          switch (selectedBuild) {
+            case "build1":
+              $('#item-label').html(build1Items.join(' '));
+              break;
+            case "build2":
+              $('#item-label').html(build2Items.join(' '));
+              break;
+            case "build3":
+              $('#item-label').html(build3Items.join(' '));
+              break;
+            default:
+              $('#item-label').html("");
+          }
+        });
+      });
+    </script>
+</html>
